@@ -1,0 +1,11 @@
+.preloaderWrapper {
+    margin: 10px;
+
+    grid-area: more;
+    text-align: center;
+}
+
+.preloaderWrapper img {
+    width: 150px;
+    height: 150px;
+}

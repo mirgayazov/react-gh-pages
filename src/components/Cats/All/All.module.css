@@ -1,0 +1,45 @@
+.allCatsWrapper {
+    text-align: center;
+    grid-area: content;
+}
+
+@media (max-width: 767px) {
+    /* стили для xs-устройств */
+    .allCats {
+        margin: auto 4vw;
+        display: grid;
+        gap: 2vw;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    /* стили для sm-устройств */
+    .allCats {
+        margin: auto 4vw;
+        display: grid;
+        gap: 2vw;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+@media (min-width: 991px) and (max-width: 1199px) {
+    /* стили для md-устройств */
+    .allCats {
+        margin: auto 4vw;
+        display: grid;
+        gap: 2vw;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+@media (min-width: 1200px) {
+    /* стили для lg-устройств */
+    .allCats {
+        margin: auto 4vw;
+        display: grid;
+        gap: 2vw;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+}

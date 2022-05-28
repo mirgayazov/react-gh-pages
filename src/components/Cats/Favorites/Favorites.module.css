@@ -1,0 +1,12 @@
+.allCatsWrapper {
+    text-align: center;
+    grid-area: content;
+}
+
+.allCats {
+    margin: auto 4vw;
+    display: grid;
+    gap: 2vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}

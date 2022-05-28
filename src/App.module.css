@@ -1,0 +1,9 @@
+.app {
+    display: grid;
+    grid-template-areas:
+    "navbar"
+    "content"
+    "more";
+    gap: 50px;
+    grid-template-rows: auto auto auto;
+}
